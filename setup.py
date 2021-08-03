@@ -16,6 +16,5 @@ setup(
             "alexandria_tests": ["water_testsim/*.xtc", "water_testsim/*.tpr", "data/*.dat"],
             "doc": ["doc.pdf"],
             },
-#	tests_require=[],
         test_suite='alexandria_tests',
 )
