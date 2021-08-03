@@ -1,2 +1,2 @@
 # alexandria
-This is a really good readme file!
+Collection of scripts to analyse molecular dynamics simulations.
