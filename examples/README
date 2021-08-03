@@ -1,0 +1,10 @@
+Um das Modul "alexandria" benutzen zu können, muss die PYTHONPATH
+variable geändert werden. PYTHONPATH fasst die Orte zusammen, in denen
+Python nach Modulen sucht ähnlich zur PATH variable in bash. Das Modul
+ist unter "/home/ptc/Jneumann/lib_alexandria/" zu finden. Der Pfad kann
+durch folgenden Befehl in PYTHONPATH eingebunden werden:
+
+export PYTHONPATH="/home/ptc/Jneumann/lib_alexandria/:$PYTHONPATH" 
+
+Empfehlenswert ist das Einbindes des Befehls in die Datei "~/.bashrc"
+oder in eine passenden Datei im Ordner "~/.env/environment/".
